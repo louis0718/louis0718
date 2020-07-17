@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<!--
+index.html
+Louis-Charles Boulet-Lavoie
+Dernière modification : 06-08-2020
+-->
+
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="UTF-8">
+    <title>Fantasy Football</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css" >
+
+    <link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand paratexte" href="#"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav mx-auto paratexte">
+            <a class="nav-item nav-link"  href="index.html">Accueil </a>
+            <a class="nav-item nav-link"  href="histoire.html">Histoire</a>
+            <a class="nav-item nav-link active"  href="ligue.html">Ligues <span class="sr-only">(current)</span></a>
+        </div>
+
+    </div>
+</nav>
+<header>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12 baniere2 img-fluid">
+            <h1 class="text-center texteBaniere" id="fontbaniere">Ligue de Fantasy Football</h1>
+        </div>
+    </div>
+</div>
+</header>
+<section>
+<div class="row">
+    <div class="col-md-12 text-center contenu2" id="pageTexte">Formulaire</div>
+</div>
+<hr>
+
+
+<form>
+    <div class="container-fluid paratexte contenu2">
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="inputEmail4">Courriel</label>
+                <input type="email" class="form-control" id="inputEmail4" placeholder="Courriel">
+            </div>
+            <div class="form-group col-md-6">
+                <label for="inputPassword4">Mot de passe</label>
+                <input type="password" class="form-control" id="inputPassword4" placeholder="Mot de passe">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="inputAddress">Addresse</label>
+            <input type="text" class="form-control" id="inputAddress" placeholder="1234 Rue Principal">
+        </div>
+        <div class="form-group">
+            <label for="inputAddress2">Addresse 2</label>
+            <input type="text" class="form-control" id="inputAddress2" placeholder="Appartement, studio, ou étages">
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="inputCity">Ville</label>
+                <input type="text" class="form-control" id="inputCity">
+            </div>
+            <div class="form-group col-md-4">
+                <label for="inputState">Province</label>
+                <select id="inputState" class="form-control">
+                    <option selected>Choisir...</option>
+                    <option>Québec</option>
+                    <option>Alberta</option>
+                    <option>Ontario</option>
+                    <option>Colombie-Britannique</option>
+                    <option>Saskatchewan</option>
+                    <option>Nouveau-Brunswick</option>
+                </select>
+            </div>
+            <div class="form-group col-md-2">
+                <label for="inputZip">Zip</label>
+                <input type="text" class="form-control"
+                       id="inputZip">
+            </div>
+        </div>
+
+        </div>
+    <div class="col-md-12 text-center">
+        <button type="submit" class="btn
+          btn-dark text-center paratexte">Envoyer</button>
+    </div>
+    </div>
+</form>
+</section>
+
+<section>
+<div class="row">
+    <div class="col-md-12 text-center contenu2" id="pageTexte">Lieu du repechâge</div>
+</div>
+<hr>
+<div class="container">
+    <div class="row">
+        <div class="col-12 text-center contenu2">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2794.4340764362046!2d-73.55346058417332!3d45.54159277910198!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc91b9273cbef13%3A0x5040fdd732f2211d!2sArena%20Francis%20Bouillon!5e0!3m2!1sen!2sca!4v1595005429610!5m2!1sen!2sca" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+            </iframe>
+        </div>
+    </div>
+</div>
+</section>
+
+<section>
+<div class="row">
+    <div class="col-md-12 text-center contenu2" id="pageTexte">Réglements</div>
+</div>
+<hr>
+<div class="container text-center">
+    <div class="row">
+        <div class="col-md-6 center-block paratexteblanc contenu1 container4" >
+            <p> Le prix d'entré est de 500$ et la récompense pour le grand gagnant est de 5000$. Jusqu'à 3 échanges
+            disponibles par semaine. Votre équipe peut contenir jusqu'à 15 joueurs.</p>
+        </div>
+        <div class="col-md-6">
+            <img src="img/ref.jpg" class="img-fluid" id="imgcontenu1">
+        </div>
+    </div>
+</div>
+</section>
+
+
+
+
+<footer class="paratexte text-center">
+    Réalisé par Louis-Charles Boulet-Lavoie
+</footer>
+
+<script src="https://kit.fontawesome.com/a46d75ba7a.js"></script>
+<script src="bootstrap-4.0.0-dist/js/bootstrap.js"></script>
+</body>
+</html>

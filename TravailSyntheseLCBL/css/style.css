@@ -1,0 +1,135 @@
+.paratexte{
+    font-family: 'Oswald', sans-serif;
+
+}
+.paratexteblanc{
+    font-family: 'Oswald', sans-serif;
+    color: #ffffff;
+
+
+}
+.baniere {
+    height: 35rem;
+    background-image: url("../img/1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.baniere2 {
+    height: 35rem;
+    background-image: url("../img/4.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+
+
+
+#fontbaniere {
+    font-family: 'Staatliches', cursive;
+    color: #ffffff;
+
+}
+#fontbaniere2 {
+    font-family: 'Staatliches', cursive;
+    color: #000000;
+
+}
+
+.texteBaniere {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.parallaxtexte {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Staatliches', cursive;
+    color: #ffffff;
+}
+
+.contenu1 {
+    background-color: #212529;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+
+}
+.contenu2 {
+    margin-top: 3rem;
+
+}
+.contenu3 {
+    margin-bottom: 3rem;
+
+}
+.contenu4 {
+     margin-bottom: 3rem;
+     margin-top: 3rem;
+
+ }
+#imgcontenu1 {
+    margin-top: 3rem;
+}
+div.container4 {
+    height: 16em;
+    position: relative }
+div.container4 p {
+    margin: 0;
+    background: #212529;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) }
+hr{
+    background: #353434;
+    height: 1px;
+    border-style: none;
+    width:50%;
+    text-align:left;
+    margin:0 auto;
+
+}
+#pageTexte{
+    color: #212529;
+    font-weight: bold;
+    font-size: 2rem;
+    font-family: 'Staatliches', cursive;
+}
+.parallax {
+    /* L’image du Parallax */
+    background-image: url("../img/img2.jpg");
+    /* L’hauteur du Parallax */
+    min-height: 500px;
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+@media only screen and (max-width: 575px){
+
+#main-img{
+    background-image: url("../img/2.jpg");
+}
+
+}
+@media only screen and (min-width: 576px) and (max-width: 768px){
+
+    #main-img{
+        background-image: url("../img/3.jpg");
+    }
+
+}
+
+}

@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<!--
+index.html
+Louis-Charles Boulet-Lavoie
+Dernière modification : 06-08-2020
+-->
+
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="UTF-8">
+    <title>Fantasy Football</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css" >
+
+    <link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand paratexte" href="#"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav mx-auto paratexte">
+            <a class="nav-item nav-link active"  href="index.html">Accueil <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link"  href="histoire.html">Histoire</a>
+            <a class="nav-item nav-link"  href="ligue.html">Ligues</a>
+        </div>
+
+    </div>
+</nav>
+<header>
+<div class="container-fluid">
+        <div class="row">
+            <div class="col-12 baniere " id="main-img">
+                <h1 class="text-center texteBaniere" id="fontbaniere">Fantasy Football</h1>
+            </div>
+        </div>
+</div>
+</header>
+
+<section>
+<div class="row">
+    <div class="col-md-12 text-center contenu2" id="pageTexte">Résumé</div>
+</div>
+<hr>
+<div class="container text-center">
+    <div class="row">
+      <div class="col-md-6 center-block paratexteblanc contenu1 container4" >
+        <p> Fantasy Football ou en autres mots le "pool" des amateurs de football existe depuis 1962.  À ce jour, il y a
+            environ 60 millions de participants aux Canada et aux États-Unis. Le prix d'entrée
+            dans une ligue est en moyenne de 525$ par participant</p>
+      </div>
+      <div class="col-md-6">
+        <img src="img/pool2.jpg" class="img-fluid" id="imgcontenu1">
+      </div>
+    </div>
+</div>
+</section>
+
+<section>
+<div class="row">
+    <div class="col-md-12 text-center contenu2" id="pageTexte">Projection 2020</div>
+</div>
+<hr>
+<div class="container text-center contenu2">
+    <div class="row">
+        <div class="col-12">
+            <img class="img-fluid" src="img/project1.png">
+        </div>
+    </div>
+</div>
+<div class="container text-center contenu2">
+    <div class="row">
+        <div class="col-12">
+          <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#exampleModal">
+            Voir projection année antérieur
+          </button>
+     <div class="modal" tabindex="-1" role="dialog" id="exampleModal">
+       <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Projection</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+
+
+            <div class="modal-body">
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <ul class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                    </ul>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="img-fluid" src="img/project2.png" alt="">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="img-fluid" src="img/project3.png" alt="">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="img-fluid" src="img/project4.png" alt="">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+
+                </div>
+            <div class="modal-footer">
+
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+            </div>
+        </div>
+        </div>
+       </div>
+     </div>
+        </div>
+</div>
+</section>
+
+<section>
+    <div class="row">
+        <div class="col-md-12 text-center contenu2" id="pageTexte">Qualité requise</div>
+    </div>
+    <hr>
+<div class="container">
+    <div class="row">
+        <div class="col-md-3 col-sm-12 text-center  paratexte">
+            <i class="fa fa-laptop contenu2" aria-hidden="true"></i>
+            <p class="contenu3">Conaissance des joueurs</p>
+        </div>
+        <div class="col-md-3 col-sm-12 text-center  paratexte">
+            <i class="fa fa-pencil-square-o contenu2" aria-hidden="true"></i>
+            <p class="contenu3">Organisation  </p>
+        </div>
+        <div class="col-md-3 col-sm-12 text-center  paratexte">
+            <i class="fa fa-user contenu2" aria-hidden="true"></i>
+            <p class="contenu3">Logique</p>
+        </div>
+        <div class="col-md-3 col-sm-12 text-center  paratexte">
+            <i class="fa fa-thumbs-up contenu2" aria-hidden="true"></i>
+            <p class="contenu3">Chance</p>
+        </div>
+    </div>
+</div>
+</section>
+
+<section>
+    <div class="row">
+        <div class="col-md-12 text-center contenu2" id="pageTexte">Plateforme</div>
+    </div>
+    <hr>
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="img/plateforme.jpg" class="contenu1 img-fluid">
+            </div>
+            <div class="col-md-6 center-block paratexteblanc contenu1 container4" >
+                <p>Il existe plusieurs plateforme numérique pour réaliser le repéchâge de votre équipe. Selui réalisé
+                    par le site officiel de la NFL est le plus efficace.  Selon la ligue, les formations de votre équipe
+                    change. Les positions rapportant le plus de points sont normalement les porteurs de ballons
+                    et les quart-arrières. Il est bien important d'organiser votre repéchâge pour qu'il soit le plus
+                    efficace possible avec l'aide de plusieurs outils (fichier excel, liste ,magasines, podcast, et
+                    bien d'autres).</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="paratexte">
+    <div class="text-center">
+    Réalisé par Louis-Charles Boulet-Lavoie
+    </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://kit.fontawesome.com/a46d75ba7a.js"></script>
+<script src="bootstrap-4.0.0-dist/js/bootstrap.js"></script>
+</body>
+</html>
